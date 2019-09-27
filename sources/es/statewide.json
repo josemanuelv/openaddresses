@@ -1,0 +1,30 @@
+{
+    "coverage": {
+        "country": "es",
+		"state": "nc",
+		"ISO 3166": {"alpha2": "ES-NC"}
+    },
+    "data": "http://www.navarra.es/appsext/DescargarFichero/default.aspx?codigoAcceso=OpenData&fichero=GestorDireccionesPostales\OpenAddresses.zip",
+    "type": "http",
+    "compression": "zip",
+	"license": {
+        "text": "CC BY 4.0",
+		"url": "https://creativecommons.org/licenses/by/4.0/deed.es"
+        "attribution": true,
+        "share-alike": false
+    },
+    "conform": {
+	    "type": "csv",
+	    "id": "idportal", 
+		"city": "city", 
+		"unit": "unit", 
+		"postcode": "postcode", 
+		"district": "district", 
+		"region": "region", 
+		"street": "street", 
+		"number": "number", 
+		"lat": "lat", 
+		"lon": "lon",
+        "srs": "EPSG:25830"
+    }
+}
